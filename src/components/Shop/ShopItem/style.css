@@ -1,0 +1,47 @@
+.item {
+    position: relative;
+
+}
+
+.shop-img {
+    width: 263px;
+}
+
+.shop-name {
+
+    background-color: white;
+    width: 263px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.quick {
+    transition: .5s ease;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.quick-btt {
+    height: 50px;
+    width: 180px;
+    padding: 15px 20px;
+    text-align: center;
+    line-height: 1.66px;
+    size: 12px;
+    letter-spacing: 2;
+    background-color: #33333A;
+    color: white;
+    border: #33333A;
+}

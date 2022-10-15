@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.main-container {
+  padding-left: 75px;
+  padding-right: 75px;
+
+  width: 90%;
+  margin: auto;
+}
+
+@media(max-width:768px) {
+  .main-container {
+    padding-left: 80px;
+    padding-right: 0px;
   }
 }

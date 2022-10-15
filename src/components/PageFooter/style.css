@@ -1,0 +1,24 @@
+.footer {
+    background-color: #33333A;
+    color: white;
+    padding-top: 41px;
+    padding-bottom: 20px;
+
+}
+
+.flex {
+    width: 90%;
+    margin: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.copy-right {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+

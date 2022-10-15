@@ -1,0 +1,104 @@
+.exploreH{
+    font-size: 42px;
+    font-weight: 400;
+    font-weight: 400;
+    line-height: 1.429;
+    text-align: center;
+    color: #33333A;
+    padding-top: 62px;
+    padding-bottom: 28PX;
+  
+}
+
+.mainExplore{
+    background-color: white
+
+}
+.exploreContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.showMoreIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 40px;
+    letter-spacing: 2px;
+    font-size:12px;
+    font-weight: 700;
+    background-color: #33333A;
+    color: white;
+    padding: 10px 19.3px 0px 19.3px;
+    line-height: 1.667;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightExplore{
+    border-top: 2px solid #33333A;
+    width: 47%;
+}
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    min-height: 50px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+}
+.paragraph{
+   
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.56;
+}
+.imageSrcFirst ,.imageSrcSc{
+    width: 100%
+}
+
+.leftExplore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 47%;
+}
+.titleSec{
+  
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.45;
+
+}
+.paragraphSec{
+    font-size: 16px;
+    line-height: 1.56;
+    color: #33333A;
+}
+.exploreTotal{
+    width: 47%;
+    border-top: 2px solid #33333A;
+
+}
+@media only screen and (max-width:768px) {
+    .rightExplore{
+        width: 100%;
+    }
+    .leftExplore{
+        margin-top: 12px;
+
+        width: 100%;
+    }
+    
+}

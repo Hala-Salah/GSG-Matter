@@ -1,0 +1,40 @@
+.title {
+    font-size: 42px;
+    font-weight: 400;
+    list-style: 60;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 62px;
+   
+}
+.about-photo{
+    width:555px ;
+}
+.about-wrapper {
+    margin-top: 24px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+   
+
+}
+.photo {
+    max-width: 100%;
+    object-fit: cover;
+}
+@media(max-width:768px){
+    .photo{
+        width: 300px;
+    }
+}
+
+.right-side {
+    width: 490px;
+}
+
+.des{
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,6 @@
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    gap: 20px;
+}
