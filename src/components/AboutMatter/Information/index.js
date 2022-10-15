@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import styles from "./styles.module.css";
 
 export const Information = () => {
   const data = [
@@ -19,7 +19,7 @@ export const Information = () => {
   const [...information] = data;
   return (
     <>
-     <p className="des">
+     <p className={styles.des}>
             Our mission is threefold - to foster designer-artisan
             collaborations, inspire consumers to value provenance and process,
             and pioneer industry change and sustainability for rural textile
@@ -30,10 +30,10 @@ export const Information = () => {
         return (
           <>
           
-          <div className="about-info">
-            <p className="more-info-title">{item.title}</p>
+          <div className={styles.aboutInfo}>
+            <p className={styles.moreInfoTitle}>{item.title}</p>
             {item.infoItems.map((more)=>{
-             return<><p className="more-info">{more}</p></>
+             return<><p className={styles.moreInfo}>{more}</p></>
             })}
             
           </div>

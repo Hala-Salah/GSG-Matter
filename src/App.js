@@ -6,8 +6,9 @@ import Featured from "./components/Featured"
 import Footer from "./components/PageFooter";
 import Slider from "./components/Slider";
 import NavScrollExample from "./components/NavBar";
-import Explore from "./components/Explore";
 import AsSeenOn from "./components/AsSeen";
+import ExploreSection from "./components/ExploreSection";
+import Videos from "./components/Videos";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <div className="main-container">
       <Featured/>
       <AboutMatter/>
-      <Explore/>
+      <ExploreSection/>
       <Shop/>
-      <AsSeenOn/>
+      <Videos/>
+    <AsSeenOn/>
       </div>
       <Footer/>
     </>

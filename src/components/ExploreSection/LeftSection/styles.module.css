@@ -1,0 +1,31 @@
+.leftSection {
+    border-top: 2px solid #33333A;
+    width: 535px;
+    height: 560px;
+    margin-right: 12px;
+    margin-bottom: 31px;
+}
+
+.leftExploreImage {
+    margin-top: 40px;
+    width: 535px;
+    height: 200px;
+}
+
+.imgExplore {
+    width: 100%;
+}
+
+@media (max-width:1436px) {
+    .leftSection {
+        margin-bottom: 140px;
+        width: 475px;
+    height: 560px;
+    }
+
+    .leftExploreImage {
+        width: 475px;
+        height: 200px;
+    }
+
+}

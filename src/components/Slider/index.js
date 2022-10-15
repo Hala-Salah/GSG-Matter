@@ -18,7 +18,7 @@ const Slider = () => {
               Perfume Tips Tricks <br></br>
               <span className={styles.sliderBttn}>Shop Now</span>
             </p>{" "}
-            <span aria-hidden="true" className="carousel-control-next-icon" />
+           
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={9000}>
@@ -34,6 +34,7 @@ const Slider = () => {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+       
       </Carousel>
     </>
   );

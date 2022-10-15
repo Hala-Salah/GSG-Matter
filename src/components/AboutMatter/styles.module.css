@@ -1,0 +1,102 @@
+
+.aboutPhoto{
+    width:555px ;
+}
+.aboutWrapper {
+    margin-top: 24px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.photo {
+    max-width: 100%;
+    object-fit: cover;
+    width: 555px;
+    height: 430px;
+}
+.rightSide {
+    width: 540px;
+}
+
+@media (max-width:1433px){
+    .aboutPhoto{
+        width:535px ;
+    }
+    .photo {
+        max-width: 100%;
+        object-fit: cover;
+        width: 535px;
+        height: 400px;
+    }
+    .rightSide {
+    }
+
+}
+
+@media (max-width:1411px){
+    .aboutPhoto{
+        width:525px ;
+    }
+    .photo {
+        max-width: 100%;
+        object-fit: cover;
+        width: 525px;
+        height: 400px;
+    }
+
+
+}
+@media (max-width:1400px){
+    .aboutPhoto{
+        width:505px ;
+    }
+    .photo {
+        max-width: 100%;
+        object-fit: cover;
+        width: 505px;
+        height: 400px;
+    }
+ 
+    
+
+}
+
+
+@media (max-width:1377px ){
+    .aboutPhoto{
+        width:485px ;
+    }
+    .photo {
+        max-width: 100%;
+        object-fit: cover;
+        width: 485px;
+        height: 400px;
+    }    
+
+}
+
+@media (max-width:1355px ){
+    .aboutPhoto{
+        width:435px ;
+    }
+    .photo {
+        max-width: 100%;
+        object-fit: cover;
+        width: 435px;
+        height: 400px;
+    }    
+
+}
+
+@media (max-width:1299px ){
+    .aboutPhoto{
+        width:350px ;
+    }
+    .photo {
+        max-width: 100%;
+        width: 360px;
+        height: 400px;
+    }    
+
+}

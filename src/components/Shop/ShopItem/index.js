@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css";
+import ShowMoreBttn from "../../ShowMoreBttn";
+import styles from "./styles.module.css";
 
 const shopInfo = [
   { imgSrc: "./assets/images/shop/shop-1.png", shopTitle: "Pants" },
@@ -14,10 +15,17 @@ export const ShopItem = () => {
       {shop.map((shopItem) => {
         return (
           <>
-            <div className="item">
-              <img className="shop-img" src={shopItem.imgSrc} alt="Shop Item" />
-              <div className="shop-name">
-                <p>{shopItem.shopTitle}</p>
+            <div className={styles.item}>
+              <img
+                className={styles.shopImg}
+                src={shopItem.imgSrc}
+                alt="Shop Item"
+              />
+              <div className={styles.shopName}>
+                <h1 className={styles.shopTitle}>{shopItem.shopTitle}</h1>
+                <div className={styles.showHideButton}>
+                  <ShowMoreBttn buttonName={"Shop Now"} />
+                </div>
               </div>
             </div>
           </>

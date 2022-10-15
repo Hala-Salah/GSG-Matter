@@ -1,0 +1,13 @@
+
+.ShowMore{
+    height: 50px;
+    width: 180px;
+    padding: 15px 20px;
+    text-align: center;
+    line-height: 1.66px;
+    letter-spacing: 2;
+    background-color: #33333A;
+    color: white;
+    border: #33333A;
+    text-transform: uppercase;
+}

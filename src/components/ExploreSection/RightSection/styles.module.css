@@ -1,0 +1,24 @@
+.rightSection {
+    border-top: 2px solid;
+    height: 100px;
+    width: 283px;
+
+}
+
+.rightFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
+
+.rightTop {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width:1410px) {
+    .rightSection {
+        width: 250px;
+    }
+
+}

@@ -1,0 +1,17 @@
+.mainContainer {
+    background-color: #FCFCFC;
+    margin-bottom: 130px;
+}
+
+.exploreMainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1410px) {
+    .mainContainer {
+        margin-bottom: 190px;
+        margin-right: 130px;
+    }
+
+}

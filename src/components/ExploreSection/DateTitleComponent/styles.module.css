@@ -1,0 +1,22 @@
+.exploreTitles{
+    font-size: 30px;
+    font-weight: 400;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.imageSrc{
+    width: 263px;
+    height: 120px;
+}
+.exploreDate{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width:1410px) {
+    .exploreTitles {
+font-size: 20px;    }
+.imageSrc{
+    width: 243px;
+}
+
+}
