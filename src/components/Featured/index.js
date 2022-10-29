@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import SectionTitle from "../SectionTitle";
 import Products from "../Products";
-import productData from "../Products/productsData";
+import products from "../Products/data";
 
 export const Featured = () => {
   return (
@@ -10,7 +10,7 @@ export const Featured = () => {
       <SectionTitle title="Featured" />
       
       <div className="featured-box ">
-        {productData.map((product) => {
+        {products.map((product) => {
           return (
             <>
               <Products {...product} />

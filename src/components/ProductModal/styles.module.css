@@ -1,0 +1,39 @@
+.modalContainer{
+    position: absolute;
+    inset: 40px;
+    border: none;
+    background: white;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    
+}
+          
+.modalHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    }
+    .modalTitle{
+        font-size: 18px;
+    }
+    .closeModal{
+        background-color: rgb(255, 255, 255);
+        border: none;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .closeModal:hover{
+        color: #FF6008;
+    }
+    .modalBody{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   

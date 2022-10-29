@@ -1,6 +1,6 @@
 .featuredItem {
     width: 263px;
-    height: 500px;
+    height: 300px;
     position: relative;
     padding-top: 20px;
     margin-bottom: 25px;
@@ -64,7 +64,7 @@
     .featuredItem {
         width: 253px;
         padding-left: 15px;
-        height: 470px;
+        height: 370px;
 
 
     }
@@ -78,7 +78,7 @@
     .featuredItem {
         width: 243px;
         padding-left: 10px;
-        height: 440px;
+        height: 240px;
 
 
     }
@@ -87,7 +87,7 @@
 @media (max-width:996px) {
     .featuredItem {
         width: 223px;
-        height: 440px;
+        height: 240px;
 
 
     }
@@ -100,7 +100,7 @@
 @media (max-width:843px) {
     .featuredItem {
         width: 193px;
-        height: 430px;
+        height: 230px;
         margin-right: 2px;
 
 
