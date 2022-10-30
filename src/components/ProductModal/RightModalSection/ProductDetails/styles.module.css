@@ -1,0 +1,27 @@
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.detailTitle{
+    font-size: 18px;
+
+
+}
+.desDiv{
+    width:580px;
+}
+.detailDes{
+    font-size: 16px;
+    color: #666666;
+}
+.button{
+    font-size: 12px;
+}
+
+.button:hover{
+    color: #FF6008;
+}
+.detailsHr{
+    border: 1px solid rgb(128, 128, 128);
+}

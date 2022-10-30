@@ -25,6 +25,7 @@ const productImages=viewedProduct.images
         <div className={styles.modalBody}>
           <LeftModalSection productImages={productImages}title={viewedProduct.title}/>
           <RightModalSection {...viewedProduct}/>
+          
         </div>
       </Modal>
     </>
